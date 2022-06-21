@@ -12,6 +12,9 @@ function App() {
           <p>{add}</p>
 
           <button onClick={() => {setAdd((add) => add + 1) }}>Add</button>
+         <div>
+         <button onClick={() => {setAdd((add) => add + 1) }}>Add</button>
+         </div>
       </header>
     </div>
   );
