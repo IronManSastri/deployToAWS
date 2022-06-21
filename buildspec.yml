@@ -14,7 +14,8 @@ phases:
   pre_build:
     commands:
     - echo installing dependencies
-    - yarn 
+    - yarn install --no-lockfile
+
 
   build:
     commands:
